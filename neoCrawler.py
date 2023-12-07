@@ -94,13 +94,6 @@ es = Elasticsearch(
 	basic_auth=(config['ELASTIC']['user'], config['ELASTIC']['password'])
 )
 
-#result = es.search(
-#	index='webpages',
-#	query={
-#		'match': {'html': 'html'}
-#	}
-#)
-
 # Initialize MechanicalSoup
 browser = ms.StatefulBrowser()
 
