@@ -1,8 +1,8 @@
-# Partner Poral
+# Partner Portal
 
 ## Background
 
-The Partner Portal extends the functionality of the StarRez Housing Information System. This portal provides a way for housing professionals to give institution (organization) staff access to manage specific housing processes without accessing the SHIS directly.
+The Partner Portal extends the functionality of the StarRez Housing Information System. This portal provides a way for housing professionals to give institution (organization) staff access to manage specific housing processes without accessing the SHIS directly. The Partner Portal can be accessed [here](https://partnerportal.info).
 
 ## Current Funcationality
 
@@ -12,7 +12,7 @@ The early arrival functionality allows staff to creates groups of students that 
 
 ## Database Schema
 
-The Partner Portal is built with the Firestore Document Database. It uses a standard model of documents and fields to ensure data management in each collection as seen through the dataServices.js.
+The Partner Portal is built with the Firestore Document Database. It uses a standard model of documents and fields to ensure data management which is maintained through the functions in dataServices.js.
 
 ### Collections
 
@@ -20,7 +20,7 @@ The database is composed of the following collections:
 
 **Access**
 
-The Access Collection contains a document for each module in the partner poral for each organization that uses the Partner Portal to indicate whether users of that organization can access the particular module.
+The Access Collection contains a document for each module in the Partner Portal for each organization that uses the Partner Portal to indicate whether users of that organization can access the particular module.
 
 | Field        | Related Collection | Data Type | Additional Information |
 | ------------ | -----------------  | --------- | ---------------------- |  
